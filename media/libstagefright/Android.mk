@@ -209,6 +209,9 @@ LOCAL_CFLAGS += -DUSE_SAMSUNG_COLORFORMAT
 LOCAL_C_INCLUDES += \
 	$(TOP)/hardware/samsung/exynos4/hal/include \
 	$(TOP)/hardware/samsung/exynos4/include
+
+ifeq ($(TARGET_IS_64_BIT), true)
+LOCAL_CFLAGS += -DHAVE_OMX_ALIGNMENT
 endif
 
 LOCAL_MODULE:= libstagefright
