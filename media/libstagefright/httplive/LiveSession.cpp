@@ -1702,6 +1702,9 @@ void LiveSession::onChangeConfiguration2(const sp<AMessage> &msg) {
         // restart buffer polling after seek becauese previous
         // buffering position is no longer valid.
         restartPollBuffering();
+
+        //Start buffering after seek
+        startBufferingIfNecessary();
     }
 
     uint32_t streamMask, resumeMask;
