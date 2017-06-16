@@ -103,7 +103,6 @@ const char *MEDIA_MIMETYPE_CONTAINER_DIVX = "video/divx";
 const char *MEDIA_MIMETYPE_CONTAINER_DTS = "audio/vnd.dts";
 const char *MEDIA_MIMETYPE_CONTAINER_FLAC = "audio/flac";
 const char *MEDIA_MIMETYPE_CONTAINER_FLV = "video/x-flv";
-const char *MEDIA_MIMETYPE_CONTAINER_MOV = "video/quicktime";
 const char *MEDIA_MIMETYPE_CONTAINER_MP2 = "audio/mpeg2";
 const char *MEDIA_MIMETYPE_CONTAINER_MPG = "video/mpeg";
 const char *MEDIA_MIMETYPE_CONTAINER_RA = "audio/vnd.rn-realaudio";

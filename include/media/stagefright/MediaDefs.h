@@ -114,7 +114,6 @@ extern const char *MEDIA_MIMETYPE_CONTAINER_DIVX;
 extern const char *MEDIA_MIMETYPE_CONTAINER_DTS;
 extern const char *MEDIA_MIMETYPE_CONTAINER_FLAC;
 extern const char *MEDIA_MIMETYPE_CONTAINER_FLV;
-extern const char *MEDIA_MIMETYPE_CONTAINER_MOV;
 extern const char *MEDIA_MIMETYPE_CONTAINER_MP2;
 extern const char *MEDIA_MIMETYPE_CONTAINER_MPG;
 extern const char *MEDIA_MIMETYPE_CONTAINER_RA;
